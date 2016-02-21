@@ -1,0 +1,9 @@
+/*customised.css 自定义一些样式*/
+
+.sidebar-about h1 {
+  font-size: 1.75rem;
+}
+
+pre {
+	background: none;
+}
