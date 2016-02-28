@@ -12,4 +12,7 @@ find . -name ".git" | xargs rm -Rf
 
 // 和已经建好的github repository的git冲突，需要使用强制推送
 git push -f
+
+// 善用debugger和Liquid的site.posts字段，直接获取目前有哪些博文
+c 'site.posts'
 {% endhighlight %}
